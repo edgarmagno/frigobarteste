@@ -75,8 +75,8 @@ function sendToWhatsApp() {
         return;
     }
 
-    let message = `*CONSUMO*\n`;
-    message += `*UH:* ${apartmentNumber}\n\n`;
+    let message = `*CONSUMO*\n\n`;
+    message += `*UH:* ${apartmentNumber}\n`;
     message += `*Itens Consumidos:*\n`;
     
     let total = 0;
